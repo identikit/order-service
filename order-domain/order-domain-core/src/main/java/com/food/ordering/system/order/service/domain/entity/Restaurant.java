@@ -11,7 +11,7 @@ public class Restaurant extends AggregateRoot<RestaurantId> {
 	private boolean active;
 	
 	
-	
+
 	public Restaurant(List<Product> products) {
 		super();
 		this.products = products;
